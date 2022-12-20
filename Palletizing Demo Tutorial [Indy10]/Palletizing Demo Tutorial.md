@@ -6,7 +6,9 @@
 
 **데모 디자인**은 다음과 같습니다.
 
-![image-20221221010253520](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221010253520.png)
+![image](https://user-images.githubusercontent.com/84532915/208728566-7f9051be-7bab-457c-8e88-b0e882b51dc1.png)
+
+
 
 
 
@@ -21,7 +23,7 @@
 
 해당 순서를 **플로우차트**로 표현하면 다음과 같습니다.
 
-![image-20221221010830245](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221010830245.png)
+![image](https://user-images.githubusercontent.com/84532915/208728604-2cdfe886-ad6e-498b-8bc3-74d0d0ab36d7.png)
 
 
 
@@ -29,7 +31,7 @@
 
 **데모 구성 장비**는 다음과 같습니다.
 
-![image-20221221012028533](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221012028533.png)
+![image](https://user-images.githubusercontent.com/84532915/208728665-a1eb44f0-1efb-4a65-bb88-42dd07604405.png)
 
 
 
@@ -37,7 +39,7 @@
 
 각 장비에 대한 **패키지**는 다음과 같이 세팅합니다.
 
-![image-20221221012218208](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221012218208.png)
+![image](https://user-images.githubusercontent.com/84532915/208728701-a3d9d38d-89ba-4c80-8387-5470f24fec6e.png)
 
 
 
@@ -98,7 +100,7 @@ t_pos = [0.09766, -0.49899, 0.62613, 179.88, 1.51, 96.72]
 
 데모 실행에 있어서 **총 2곳의 좌표를 설정**할 필요가 있습니다. 그 중 첫번째 좌표인 **상자가 놓여지는 고정된 위치의 절대 좌표를 입력**해주면 됩니다. (**툴 좌표계로 입력**)
 
-![image-20221221020727019](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221020727019.png)
+![image](https://user-images.githubusercontent.com/84532915/208728763-4f950eb9-1f55-4d60-83df-675aa14854c3.png)
 
 툴 좌표계는 **Conty의 좌측 상단의 툴 위치**를 통해 확인할 수 있습니다. 
 [ **주의: x, y, z 좌표의 경우에는 단위를 mm 가 아닌 m 단위로 입력해야 합니다.** ]
