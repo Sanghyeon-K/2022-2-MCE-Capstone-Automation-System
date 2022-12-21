@@ -6,7 +6,7 @@
 
 **데모 디자인**은 다음과 같습니다.
 
-![image-20221221122639975](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221122639975.png)
+![image](https://user-images.githubusercontent.com/84532915/208834884-ec7dfd46-7d21-4753-89ef-747e51946737.png)
 
 
 
@@ -22,7 +22,7 @@
 
 해당 순서를 **플로우차트**로 표현하면 다음과 같습니다.
 
-![image-20221221123418664](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221123418664.png)
+![image](https://user-images.githubusercontent.com/84532915/208834913-00f0f69f-bba4-4cbc-9174-bdee637ff9e6.png)
 
 
 
@@ -30,9 +30,9 @@
 
 **데모 구성 장비**는 다음과 같습니다.
 
-![image-20221221124004696](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221124004696.png)
+![image](https://user-images.githubusercontent.com/84532915/208834951-116668ce-15ba-43d7-97c1-cd683726738d.png)
 
-![image-20221221123938995](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221123938995.png)
+![image](https://user-images.githubusercontent.com/84532915/208834977-c3695966-b658-4e7c-a9a1-a990a97cd00e.png)
 
 
 
@@ -40,7 +40,7 @@
 
 각 장비에 대한 **패키지**는 다음과 같이 세팅합니다.
 
-![image-20221221133257794](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221133257794.png)
+![image](https://user-images.githubusercontent.com/84532915/208835005-aebf929e-b4a7-489c-b326-913fd5ec25a9.png)
 
 
 
@@ -88,7 +88,7 @@ py_serial = serial.Serial(
 
 **Arduino Uno 보드를 노트북과 연결**할 때 필요한 세팅입니다. 현재 포트는 **COM4**로 세팅되어 있습니다. 하지만 포트는 노트북마다 세팅이 달라질 수 있으므로 **Arduino 실행 화면의 툴에서 본인의 포트에 맞게 수정해서 적용**해주시면 되겠습니다.
 
-![image-20221221140752440](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221140752440.png)
+![image](https://user-images.githubusercontent.com/84532915/208835102-9a58895b-a42d-446c-b7aa-952b7c3d55dc.png)
 
 ```python
 # 시작 위치를 설정
@@ -98,7 +98,7 @@ start_pos = [0.75474, 0.00010, 0.60269, 179.97, 1.18, 179.92]
 데모 실행에 있어서 **총 1곳의 좌표를 설정**할 필요가 있습니다. 해당 좌표는 **Indy10을 기준으로 가장 멀리 떨어져있는 상자의 위치**입니다. 해당 위치의 **절대 좌표를 입력**해주면 됩니다.
 [ **절대 좌표 관련 설명은 팔레타이징 튜토리얼을 참고** ]
 
-![image-20221221141742425](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221221141742425.png)
+![image](https://user-images.githubusercontent.com/84532915/208835127-0c1ddc67-ee47-4741-a0a2-f183efd03029.png)
 
 ```python
 # 부품 종류에 따라 움직일 방향 및 거리를 알려주는 함수를 선언
