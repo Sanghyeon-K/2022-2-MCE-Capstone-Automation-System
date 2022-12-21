@@ -26,7 +26,7 @@ Python code는 카메라의 영상처리 기법을 바탕으로한 외부 데이
 
 본 튜토리얼은 로봇팔 1대와 카메라 1개로 이루어져 상대적으로 구현하기 쉬운 팔레타이징 공정을 먼저 구현한 뒤 검증했습니다. 팔레타이징 공정이란 **물류 작업 시 출하나 보관을 위해 물품을 팔레트(화물 운반대) 위에 적재하는 것**을 의미합니다.
 
-- [**팔레타이징 공정 튜토리얼**](https://github.com/Sanghyeon-K/2022-2_MCE_Capstone_AutomationSystem/blob/main/Palletizing%20Demo%20Tutorial%20%5BIndy10%5D/Palletizing%20Demo%20Tutorial.md)
+- **[팔레타이징 공정 튜토리얼](https://github.com/Sanghyeon-K/2022-2_MCE_Capstone_AutomationSystem/blob/main/Palletizing%20%5BIndy10%5D/Palletizing%20Demo%20Tutorial.md)**
 
   
 
