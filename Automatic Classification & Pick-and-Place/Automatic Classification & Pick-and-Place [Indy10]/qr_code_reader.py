@@ -2,10 +2,8 @@ import cv2
 import numpy as np
 import pyzbar.pyzbar as pyzbar
 
-# 카메라 선언
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
-# 부품 선언
 part = str(0)
 
 # 로봇(Indy10)과 연동 유무 (0: 연동 x, 1: 연동 o)
@@ -48,7 +46,7 @@ while(cap.isOpened()):
     center_point_x = x + (w / 2)
     center_point_y = y + (h / 2)
 
-    qr_list[cnt][0] = center_point_y
+    qr_list[cnt][0] = center_point_x
     qr_list[cnt][1] = barcode_data
 
     # QR 코드 부분에 사각형을 그림
