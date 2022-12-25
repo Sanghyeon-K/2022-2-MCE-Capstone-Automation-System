@@ -48,11 +48,11 @@
 
 **컨베이어 벨트**는 다음과  같이 세팅합니다.
 
-![image-20221225215356746](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221225215356746.png)
+![image](https://user-images.githubusercontent.com/84532915/209468893-2c648624-a575-4353-a4be-53de4c1e8f87.png)
 
 세팅이 끝난 뒤에는 **파워 서플라이에 전압은 30V 이상, 전류는 1A 이상**으로 맞춰준 뒤 출력해주면 컨베이어 벨트는 정상적으로 작동할 겁니다. 아래의 사진은 실제로 컨베이어 벨트를 작동시킬 때의 파워 서플라이 상태입니다.
 
-![image-20221225215722955](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221225215722955.png)
+![image](https://user-images.githubusercontent.com/84532915/209468944-2c5c9453-4f90-402b-874a-75a79960d8ec.png)
 
 
 
