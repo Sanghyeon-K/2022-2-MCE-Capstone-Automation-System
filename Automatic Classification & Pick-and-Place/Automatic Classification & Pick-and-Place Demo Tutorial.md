@@ -44,6 +44,18 @@
 
 
 
+## Conveyor Belt
+
+**컨베이어 벨트**는 다음과  같이 세팅합니다.
+
+![image-20221225215356746](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221225215356746.png)
+
+세팅이 끝난 뒤에는 **파워 서플라이에 전압은 30V 이상, 전류는 1A 이상**으로 맞춰준 뒤 출력해주면 컨베이어 벨트는 정상적으로 작동할 겁니다. 아래의 사진은 실제로 컨베이어 벨트를 작동시킬 때의 파워 서플라이 상태입니다.
+
+![image-20221225215722955](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221225215722955.png)
+
+
+
 ## Demo Code
 
 데모 코드는 **총 3개로 구성**되어 있습니다. 첫번째는 **PC Camera를 통해 상자의 QR code를 인식**하는 **qr_code_reader.py** 이고, 두번째는 **앞의 코드를 통해 얻은 데이터를 바탕으로 자동 분류 및 픽앤플레이스를 실행**하는 **Automatic_Classification&PickandPlace_Indy10.py** 이고, 마지막은 **파이썬 코드에서 시리얼 통신을 통해 컨베이어 벨트를 원격으로 제어**하게 해주는 **ArduinoUno_ConveyorBelt.ino** 입니다.
