@@ -51,8 +51,15 @@ void loop(){
   if (Serial.available()){
     cmd = Serial.read();
 
+  if(cmd == 'f'){
+    Serial.println("Belt: Forward");
+    digitalWrite(dirPin, LOW);  // 정방향  
+    cnt = 1000;
+  }
+
   if(cmd == 'b'){
     Serial.println("Belt: Backward");
+    digitalWrite(dirPin, HIGH);  // 역방향  
     cnt = 1000;
   }
 
@@ -60,7 +67,6 @@ void loop(){
     digitalWrite(pwmPin, 255);
     delay(5);
     digitalWrite(pwmPin, 0); 
-    digitalWrite(dirPin, HIGH);  // 역방향    
   }
- }
-} 
+}
+}
