@@ -141,3 +141,11 @@ def next_pos_cal(cur_pos, cur_seq):
 
 
 모든 준비가 끝난 경우에는 **box_detecter.py의 robot_subprocess 값을 1로 세팅**한 뒤에 **Palletizing_Indy10.py를 실행**해주면 됩니다.
+
+
+
+## Demo Video
+
+**데모 영상**은 유튜브 링크를 통해 확인할 수 있습니다.
+
+* [팔레타이징 데모 영상](https://www.youtube.com/watch?v=YMPplXEOtlA)
