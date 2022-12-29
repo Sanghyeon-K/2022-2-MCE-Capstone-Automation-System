@@ -167,3 +167,11 @@ for(i=cnt; i>=0; i-=1){
 
 본 데모에서는 **RG2 그리퍼의 호환성 문제**로 인해 UR5e를 사용하지 못했습니다. 하지만 WeGo Robotics 및 OnRobot의 개발자들과 지속적인 연락 및 협업을 통해 그리퍼 호환성 문제를 해결한다면 본 데모를 처음 구상했을 때 목표했었던 **Closed Loop Demo를 구현할 수 있을 것으로 예상**됩니다.
 
+
+
+## Demo Video
+
+데모 영상은 유튜브 링크를 통해 확인할 수 있습니다.
+
+* [자동 분류 및 픽앤플레이스 데모 영상](https://www.youtube.com/watch?v=3OCl36IBem8)
+
